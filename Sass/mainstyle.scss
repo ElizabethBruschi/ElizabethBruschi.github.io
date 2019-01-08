@@ -1,0 +1,111 @@
+@import 'reset';
+@import 'colors';
+@import 'fontstyle';
+@import 'classes';
+
+html{
+	font-family: 100% $font;
+	background-color: $background;
+	color: $fontcolor / 3;
+	font-size: $fontsize;
+}
+div{
+	background-color: $foreground;
+	border-radius: 4mm;
+}
+h1{
+	font-size: 35mm;
+	padding-left: 4mm;
+}
+h2{
+	font-size: 32mm;
+	padding-left: 4mm;
+}
+h3{
+	font-size: 29mm;
+	font-style: oblique;
+	padding-left: 4mm;
+}
+h4{
+	font-size: 26mm;
+	padding-left: 4mm;
+}
+h5{
+	font-size: 23mm;
+	padding-left: 4mm;
+}
+h6{
+	font-size: 20mm;
+	font-style: italic;
+	padding-left: 4mm;
+}
+p{
+	padding-left: 4mm;
+}
+a:link{
+    color: $fontcolor * 3;
+    padding: 2mm;
+	text-decoration: none;
+	border-radius: 4mm;
+}
+a:visited{
+    color: $fontcolor / 3;
+}
+a:hover{
+    color: $background * 8;
+}
+a:active{
+    color: $background / 2;
+}
+nav{
+	background-color: $background / 4;
+	margin: 5mm;
+}
+footer{
+	display: flex;
+	flex: 1;
+	font-size: $fontsize / 2;
+}
+ul{
+	padding-left: 1mm;
+	text-align: center;
+}
+button{
+	background-color: $foreground;
+	border-radius: 4mm;
+	margin: 2mm;
+	border-color: $background;
+	color: $fontcolor;
+}
+img{
+	border: 1mm solid $foreground / 5;
+	border-radius: 4mm;
+	margin: 5mm;
+	max-width: 100%;
+	height: auto;
+}
+input{
+	background-color: $foreground * 1.5;
+}
+label{
+	background-color: $foreground * 1.5;
+	border-radius: 4mm;
+	margin: 2mm;
+	border-color: $background;
+	color: $fontcolor;
+}
+code{
+	background-color: $foreground * 1.5;
+	border-radius: 4mm;
+}
+
+#over:hover{
+	color: $background * 8;	
+}
+#messagecontent{
+	display: none;
+	position: absolute;
+	background-color: white;
+	top: -40;
+	right:10;
+}

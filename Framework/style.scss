@@ -47,7 +47,8 @@ table {
 $background: #D5D5D5;
 $foreground: #9099A2;
 $primaryButtonColor: #96858F;
-$fontcolor: #0000;
+$fontcolorGeneral: #0000;
+$fontColorOpt: #fff;
 $font: 'Muli', sans-serif;
 
 html{
@@ -57,7 +58,9 @@ html{
 
 #Nav{
   background: $foreground;
+  color: $fontColorOpt;
 }
 footer{
-  background: $foreground
+  background: $foreground;
+  color: $fontColorOpt;
 }

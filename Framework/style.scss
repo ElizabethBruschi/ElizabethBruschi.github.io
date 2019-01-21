@@ -44,6 +44,13 @@ table {
 //Lavender: 6d7993
 //Dusty: 96858f
 //$background: #5E585A;
-$background: #9099a2;
+$background: #D5D5D5;
+$foreground: #9099A2;
+$primaryButtonColor: #96858F;
 $fontcolor: #0000;
 $font: 'Muli', sans-serif;
+
+html{
+  color: $background;
+  font: $font;
+}

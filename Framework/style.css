@@ -48,16 +48,16 @@ table {
 }
 
 html {
-  background-color: #D5D5D5;
-  font-style: "Muli", sans-serif;
+  background: #D5D5D5;
+  font: "Muli", sans-serif;
 }
 
 #Nav {
-  background-color: #9099A2;
+  background: #9099A2;
 }
 
 footer {
-  background-color: #9099A2;
+  background: #9099A2;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -51,13 +51,13 @@ $fontcolor: #0000;
 $font: 'Muli', sans-serif;
 
 html{
-  background-color: $background;
-  font-style: $font;
+  background: $background;
+  font: $font;
 }
 
 #Nav{
-  background-color: $foreground;
+  background: $foreground;
 }
 footer{
-  background-color: $foreground
+  background: $foreground
 }

@@ -47,4 +47,17 @@ table {
   border-spacing: 0;
 }
 
+html {
+  background-color: #D5D5D5;
+  font-style: "Muli", sans-serif;
+}
+
+#Nav {
+  background-color: #9099A2;
+}
+
+footer {
+  background-color: #9099A2;
+}
+
 /*# sourceMappingURL=style.css.map */

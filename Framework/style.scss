@@ -59,8 +59,12 @@ html{
 #Nav{
   background: $foreground;
   color: $fontColorOpt;
+  height: 45px;
 }
 footer{
   background: $foreground;
   color: $fontColorOpt;
+  height: 20px;
+  font-size: 14px;
+  text-align: center;
 }

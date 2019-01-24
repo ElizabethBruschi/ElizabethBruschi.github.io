@@ -65,9 +65,17 @@ footer {
   font-size: 14px;
   text-align: center;
 }
+footer div {
+  position: relative;
+  top: 3px;
+}
 
 img {
   height: 500px;
+}
+
+#container {
+  margin: 25px;
 }
 
 /*# sourceMappingURL=style.css.map */

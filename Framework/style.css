@@ -84,4 +84,14 @@ img {
   width: 75px;
 }
 
+ul {
+  background: #fff;
+  width: 200px;
+  text-align: center;
+}
+
+li {
+  padding: 20px;
+}
+
 /*# sourceMappingURL=style.css.map */

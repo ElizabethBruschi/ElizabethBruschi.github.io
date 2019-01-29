@@ -92,8 +92,10 @@ img{
 }
 li{
   padding: 20px;
+  color: $fontcolorGeneral;
 }
 
 .active, a:hover{
-  background-color: rgba($color: $foreground, $alpha: .7)
+  background-color: rgba($color: $foreground, $alpha: .7);
+  color: $fontColorOpt;
 }

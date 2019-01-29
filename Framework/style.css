@@ -94,4 +94,8 @@ li {
   padding: 20px;
 }
 
+.active, a:hover {
+  background-color: rgba(144, 153, 162, 0.7);
+}
+
 /*# sourceMappingURL=style.css.map */

@@ -93,3 +93,7 @@ img{
 li{
   padding: 20px;
 }
+
+.active, a:hover{
+  background-color: rgba($color: $foreground, $alpha: .7)
+}

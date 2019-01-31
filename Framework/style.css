@@ -100,11 +100,11 @@ li {
   color: #0000;
 }
 
-.containerB {
+#containerB {
   background: #fff;
 }
 
-.holder {
+#holder {
   display: flex;
 }
 

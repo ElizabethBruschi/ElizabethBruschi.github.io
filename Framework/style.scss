@@ -95,7 +95,7 @@ li{
   color: $fontcolorGeneral;
 }
 
-.active, a:hover{
+.active{
   background-color: rgba($color: $foreground, $alpha: .7);
   color: $fontcolorGeneral;
 }

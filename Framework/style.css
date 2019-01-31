@@ -104,4 +104,8 @@ li {
   background: #fff;
 }
 
+.holder {
+  display: flex;
+}
+
 /*# sourceMappingURL=style.css.map */

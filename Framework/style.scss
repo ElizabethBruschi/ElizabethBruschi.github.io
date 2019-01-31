@@ -102,12 +102,19 @@ li{
 #containerB{
   display: flex;
   background: #fff;
-  padding: 10px;
+  margin-left: 10px;
+  width: 100%;
   img{
     padding: 25px;
   }
   div{
+    text-align: center;
+    width: 100%;
     padding: 25px;
+    h2{
+      padding: 15px;
+      font-size: 50px;
+    }
   }
 }
 #holder{

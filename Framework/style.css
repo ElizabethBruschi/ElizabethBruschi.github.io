@@ -101,7 +101,15 @@ li {
 }
 
 #containerB {
+  display: flex;
   background: #fff;
+  padding: 10px;
+}
+#containerB img {
+  padding: 25px;
+}
+#containerB div {
+  padding: 25px;
 }
 
 #holder {

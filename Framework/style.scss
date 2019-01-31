@@ -100,7 +100,15 @@ li{
   color: $fontcolorGeneral;
 }
 #containerB{
+  display: flex;
   background: #fff;
+  padding: 10px;
+  img{
+    padding: 25px;
+  }
+  div{
+    padding: 25px;
+  }
 }
 #holder{
   display:flex;

@@ -147,9 +147,6 @@ li {
   margin-left: 10px;
   width: 100%;
 }
-#containerC img {
-  padding: 25px;
-}
 #containerC div {
   text-align: center;
   width: 100%;
@@ -165,6 +162,12 @@ li {
 }
 #containerC div p {
   margin: 25px;
+}
+#containerC div i {
+  font-size: 30px;
+}
+#containerC div a {
+  display: block;
 }
 
 /*# sourceMappingURL=style.css.map */

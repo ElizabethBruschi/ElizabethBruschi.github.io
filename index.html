@@ -1,57 +1,67 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <link href="Framework/style.css" rel="stylesheet" />
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9"
-            crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="Framework/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9"
+        crossorigin="anonymous">
 </head>
+
 <body>
     <div id="Nav">
         <h3>Elizabeth Bruschi</h3>
     </div>
     <div id="container">
-            <div class="slids">
-                    <div id="containerB" class="slidspic">
-                            <img class="me" src="images/Liz9.jpg">
-                            <div>
-                                <h2>Elizabeth Bruschi</h2>
-                                <h4>Full stack Web Developer</h4>
-                                <p>I am a current student at Neumont College of Computer Science.
-                                     I am in the web development. I have studied to be a full stack web developer.</p>
-                                <h3>Skills</h3>
-                                <section>
-                                    <p>JavaScript</p>
-                                    <p>C#</p>
-                                    <p>SQL</p>
-                                    <p>Ruby</p>
-                                    <p>Asp.net</p>
-                                    <p>React</p>
-                                </section>
-                            </div>
-                        </div>
-                    <img class="slidspic" src="">
-                    <img class="slidspic" src="">
-                    <a class="before" onclick="change(-1)">
-                        <i class="fas fa-arrow-left"></i>
-                    </a>
-                    <a class="after" onclick="change(1)">
-                        <i class="fas fa-arrow-right"></i>
-                    </a>
-                    <div class="position">
-                        <span class="ind" onclick="">
-                            <input type="button" id="primary" onclick="location.href='about.html';" value="Bio">
-                        </span>
-                        <span class="ind" onclick=""></span>
-                        <span class="ind" onclick=""></span>
+        <div class="slids">
+            <div id="containerB" class="slidspic">
+                <img class="me" src="images/Liz9.jpg">
+                <div>
+                    <h2>Elizabeth Bruschi</h2>
+                    <h4>Full stack Web Developer</h4>
+                    <input type="button" id="primary" onclick="location.href='about.html';" value="Bio">
+                </div>
+            </div>
+            <div id="containerB" class="slidspic">
+                <img class="me" src="images/Liz9.jpg">
+                <div>
+                    <h2>Past Projects</h2>
+                    <input type="button" id="primary" onclick="location.href='projects.html';" value="Projects">
+                </div>
+            </div>
+            <div id="containerB" class="slidspic">
+                <img class="me" src="images/Liz9.jpg">
+                <div>
+                    <h2>Graphics</h2>
+                    <input type="button" id="primary" onclick="location.href='graphics.html';" value="Graphics">
+                </div>
+            </div>
+            <div id="containerB" class="slidspic">
+                    <img class="me" src="images/Liz9.jpg">
+                    <div>
+                        <h2>Get Ahold of me:</h2>
+                        <input type="button" id="primary" onclick="location.href='contact.html';" value="Contact">
                     </div>
                 </div>
+            <a class="before" onclick="change(-1)">
+                <i class="fas fa-arrow-left"></i>
+            </a>
+            <a class="after" onclick="change(1)">
+                <i class="fas fa-arrow-right"></i>
+            </a>
+            <div class="position">
+                <span class="ind" onclick=""></span>
+                <span class="ind" onclick=""></span>
+                <span class="ind" onclick=""></span>
+            </div>
+        </div>
     </div>
     <footer>
         <p> <i class="far fa-copyright"></i> 2019 - created by Elizabeth Bruschi </p>
     </footer>
     <script src='script.js'></script>
 </body>
+
 </html>
 
 <!-- sass --watch Framework/style.scss:Framework/style.css -->

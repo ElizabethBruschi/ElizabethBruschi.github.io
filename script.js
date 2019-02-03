@@ -20,4 +20,3 @@ function change(n) {
 if (document.getElementsByClassName("slidspic").length > 0) {
     changeslid(slidpos);
 }
-setTimeout(changeslid,2000);

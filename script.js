@@ -12,7 +12,7 @@ function changeslid(sp) {
     }
     slid[slidpos - 1].style.display = "block";
     indicator[slidpos - 1].style.backgroundColor = "black";
-    setTimeout(changeslid,3000);
+    
 }
 function change(n) {
     changeslid(slidpos += n);
@@ -20,3 +20,4 @@ function change(n) {
 if (document.getElementsByClassName("slidspic").length > 0) {
     changeslid(slidpos);
 }
+setTimeout(changeslid,2000);

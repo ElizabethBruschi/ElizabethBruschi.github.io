@@ -1,3 +1,5 @@
+var slidpos = 1;
+
 function changeslid(sp) {
     var s;
     var slid = document.getElementsByClassName("slidspic");

@@ -142,4 +142,29 @@ li {
   height: 150px;
 }
 
+#containerC {
+  background: #fff;
+  margin-left: 10px;
+  width: 100%;
+}
+#containerC img {
+  padding: 25px;
+}
+#containerC div {
+  text-align: center;
+  width: 100%;
+  padding: 25px;
+}
+#containerC div h2 {
+  padding: 15px;
+  font-size: 50px;
+}
+#containerC div h3 {
+  padding: 25px;
+  font-size: 25px;
+}
+#containerC div p {
+  margin: 25px;
+}
+
 /*# sourceMappingURL=style.css.map */

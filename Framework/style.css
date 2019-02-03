@@ -57,6 +57,12 @@ html {
   color: #fff;
   height: 45px;
 }
+#Nav h3 {
+  font-size: 25px;
+  margin-left: 25px;
+  position: relative;
+  top: 9px;
+}
 
 footer {
   background: #9099A2;
@@ -128,6 +134,13 @@ li {
 
 #holder {
   display: flex;
+}
+
+.optPic {
+  width: 950px;
+  height: 150px;
+  padding-top: 25px;
+  margin-left: 64px;
 }
 
 /*# sourceMappingURL=style.css.map */

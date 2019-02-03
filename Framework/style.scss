@@ -57,6 +57,12 @@ html{
 }
 
 #Nav{
+  h3{
+    font-size: 25px;
+    margin-left: 25px;
+    position: relative;
+    top: 9px;
+  }
   background: $foreground;
   color: $fontColorOpt;
   height: 45px;
@@ -126,4 +132,10 @@ li{
 }
 #holder{
   display:flex;
+}
+.optPic{
+  width: 950px;
+  height: 150px;
+  padding-top: 25px;
+  margin-left: 64px;
 }

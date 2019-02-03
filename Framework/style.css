@@ -212,4 +212,30 @@ li {
   background-color: white;
 }
 
+#containerA {
+  display: flex;
+  background: #fff;
+  margin-left: 10px;
+  width: 100%;
+}
+#containerA img {
+  padding: 25px;
+}
+#containerA div {
+  text-align: center;
+  width: 100%;
+  padding: 25px;
+}
+#containerA div h2 {
+  padding: 15px;
+  font-size: 50px;
+}
+#containerA div h3 {
+  padding: 25px;
+  font-size: 25px;
+}
+#containerA div p {
+  margin: 25px;
+}
+
 /*# sourceMappingURL=style.css.map */

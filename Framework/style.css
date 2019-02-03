@@ -137,6 +137,7 @@ li {
 }
 
 .optPic {
+  padding: 0px;
   width: 950px;
   height: 150px;
   padding-top: 25px;

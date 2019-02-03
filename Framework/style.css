@@ -122,6 +122,9 @@ li {
   padding: 25px;
   font-size: 25px;
 }
+#containerB div p {
+  margin: 25px;
+}
 
 #holder {
   display: flex;
